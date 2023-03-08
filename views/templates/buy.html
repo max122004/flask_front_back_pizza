@@ -1,0 +1,24 @@
+{% extends 'base.html' %}
+
+{% block title %}
+<title>Добавление товара</title>
+{% endblock %}
+
+{% block body %}
+<div class="container">
+  <h1>Про магазин</h1>
+  <form method="post">
+      <input type="text" class="form-control" list="datalistOptions" name="title" id="title" placeholder="Введите название пиццы">
+      <datalist id="datalistOptions">
+        <option value="Пеперони">
+        <option value="Болоньезе">
+        <option value="Классическая">
+        </datalist><br>
+      <input type="text" class="form-control" name="fio" id="fio" placeholder="Введите ФИО"><br>
+      <input type="number" class="form-control" name="number" id="number" placeholder="Введите номер телефона"><br>
+      <input type="text" class="form-control" name="email" id="email" placeholder="Введите email"><br>
+      <input type="text" class="form-control" name="address" id="address" placeholder="Введите адрес"><br>
+      <button class="btn btn-success" type="submit">Сделать заказ</button>
+  </form>
+</div>
+{% endblock %}

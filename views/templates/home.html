@@ -1,0 +1,69 @@
+{% extends 'base.html' %}
+{% block body %}
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="https://media.istockphoto.com/id/943449174/ru/фото/концепция-рекламных-листовки-и-плакат-для-ресторанов-или-пиццерий-вкусный-вкус-пиццы.jpg?s=612x612&w=0&k=20&c=qRUZCMF4xVN2cEURcZ3frE7qgY32GoqjhhBStX6SV4g="  class="d-block w-100" alt="...">
+
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1></h1>
+            <p>Some representative placeholder content for the first slide of the carousel.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Sign up today</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://media.istockphoto.com/id/905473288/ru/фото/концепция-рекламных-листовки-и-плакат-для-ресторанов-или-пиццерий-шаблон-с-вкусным-вкусом-пиццы.jpg?s=612x612&w=0&k=20&c=C6ZlrbedMAgI3HObfPKCYnd2rC6oVHur-32i2R1-jDc="  class="d-block w-100" alt="...">
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Another example headline.</h1>
+            <p>Some representative placeholder content for the second slide of the carousel.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Learn more</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <img src="https://media.istockphoto.com/id/905473608/ru/фото/концепция-рекламной-листовки-и-плаката-для-ресторанов-или-пиццерий-шаблон-с-вкусным-вкусом.jpg?s=612x612&w=0&k=20&c=HLrKNGVGjwTdBS6ZvIfQaxWaMwrwjsTQrd3aFvR0Siw="  class="d-block w-100" alt="...">
+
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>One more for good measure.</h1>
+            <p>Some representative placeholder content for the third slide of this carousel.</p>
+            <p><a class="btn btn-lg btn-primary" href="#">Browse gallery</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+  </div> <br>
+<div class="card text-center">
+  <div class="card-header">
+    Featured
+  </div>
+  <div class="card-body">
+    <h5 class="card-title">Пицца</h5>
+    <p class="card-text">- суперзвезда итальянской кухни. Национальное
+      блюдо с хрустящим тестом, сочной начинкой, расплавленным
+      сыром и ароматным томатным соусом - воплощение вкуса к
+      жизни и просто невероятно аппетитная здоровая еда.</p>
+    <a href="#" class="btn btn-primary">Go somewhere</a>
+  </div>
+  <div class="card-footer text-muted">
+    2 days ago
+  </div>
+</div>
+{% endblock %}
